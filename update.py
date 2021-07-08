@@ -47,3 +47,19 @@ def deletar(conexao, sql):
 
 vsql = "DELETE FROM tb_usuarios WHERE Nome"
 deletar(vcon, vsql)
+
+
+# Update
+def atualizar(conexao, sql):
+    try:
+        c = conexao.cursor()
+        c.execute(sql)
+        conexao.commit()
+    except Error as e:
+        print(e)
+    finally:
+        print("Registro Atualizado")
+
+
+vsql = "UPDATE FROM tb_usuarios SET Nome='Bruno' WHERE Nome"
+atualizar(vcon, vsql)
