@@ -12,7 +12,7 @@ Tela de Cadastro Sistema SUV: Na tela o usuário deve colocar seu nome, e um e-m
 Aplicabilidade: Poderá ser utilizado em casos de sistemas simples onde haja a necessidade de fazer um cadastro de usuário.
 
 ### Tela de Cadastro
-![Tela de Cadastro]https://github.com/leticiamavignier/sistemasuv_atualizacao/blob/main/tela%20de%20acesso.png
+![Tela de Cadastro](https://github.com/leticiamavignier/sistemasuv_atualizacao/blob/main/tela%20de%20acesso.png)
 
 ### Letícia Mavignier
 ### Análise e Desenvolvimento de Sistemas 2021.1
